@@ -1,4 +1,4 @@
-package uz.ttpu;
+package uz.muu;
 
 import java.util.List;
 

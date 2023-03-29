@@ -1,5 +1,5 @@
-import uz.ttpu.MealRecipes;
-import uz.ttpu.RestaurantKitchen;
+import uz.muu.MealRecipes;
+import uz.muu.RestaurantKitchen;
 
 import java.util.List;
 
