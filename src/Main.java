@@ -1,4 +1,4 @@
-import uz.muu.MealRecipes;
+import uz.muu.Meal;
 import uz.muu.RestaurantKitchen;
 
 import java.util.List;
@@ -6,6 +6,7 @@ import java.util.List;
 public class Main {
 
     public static void main(String[] args) {
+
         RestaurantKitchen restaurantKitchen = new RestaurantKitchen();
 
         restaurantKitchen.addMeal(1, "Plov", 20000);
@@ -40,8 +41,8 @@ public class Main {
 
         System.out.println(restaurantKitchen.availableProduct("Oil"));
 
-        List<MealRecipes> sortedSoldMealRecipes = restaurantKitchen.preparedMeal();
-        for (MealRecipes mr :
+        List<Meal> sortedSoldMealRecipes = restaurantKitchen.preparedMeal();
+        for (Meal mr :
                 sortedSoldMealRecipes) {
             System.out.println(mr);
         }
